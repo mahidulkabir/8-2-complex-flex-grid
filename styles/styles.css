@@ -8,3 +8,14 @@ img{
     gap: 5px;
     margin-bottom: 5px;
 }
+.row div{
+    flex: 1;
+}
+.vertical-column img{
+    height: calc((100% - 5px)/2);
+}
+.four{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
