@@ -19,6 +19,33 @@ img{
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 200px) 40px 40px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.box{
+    background-color: antiquewhite;
+    border: 3px solid rgb(9, 240, 240);
+    border-radius: 7px;
+    
+   
+    
+}
+#box-1{
+    grid-row: span 5;
+}
+#box-11,#box-12{
+    grid-column: span 3;
+}
+
+
+
+
 @media screen and (max-width:576px) {
 
   .row{ 
